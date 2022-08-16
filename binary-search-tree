@@ -1,0 +1,29 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+root = 7
+			7
+		      /	  \
+		     5     8
+		    / \     \
+		   1   6     9
+		  / \          
+		 0   3
+		    / \
+		   2   4    
+		   
+		   
+2.Aşamalar 
+
+- root 7'dir diziden sayıları alalım.
+- 5 7 den küçük olduğu için soluna koyuyoruz.
+- 1 7 den küçük olduğu için soluna koyuyoruz ve 1 5 ten küçük olduğu için 5'inde soluna koyuyoruz.
+- 8 7 den büyük olduğu için sağına koyuyoruz.
+- 3 7 den küçük olduğu için soluna koyuyoruz ve 3 5 den küçük olduğu için soluna koyuyoruz ve 1 den büyük olduğu için 1'in sağına koyuyoruz.
+- 6 7 den küçük olduğu için soluna koyuyoruz ve 6 5 den büyük olduğu için 5'in sağına koyuyoruz.
+- 0 7 den küçük olduğu için soluna koyuyoruz ve 0 5 ten küçük soluna, 1 den küçük 1'in soluna koyuyoruz.
+- 9 7 den büyük sağına koyuyoruz ve 9 8 den büyük olduğu için 8'in sağına koyuyoruz.
+- 4 7 den küçük soluna koyuyorz ve 4 5 den küçük soluna koyuyoruz 1 den büyük  3 den büyük olduğu için sağına koyuyoruz.
+- 2 7 den küçük 5 den küçük 1 den büyük 3 den küçük 3 ün soluna koyuyoruz.
+
